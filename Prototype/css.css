@@ -7,6 +7,9 @@
     font-style: normal;
 
     }
+#menu label, #hamburger {
+  display: none;
+}
 h1{
     font-family: forma-djr-display, sans-serif;
 font-weight: 700;
@@ -360,6 +363,32 @@ img{
     padding:40px;
   
 }
+     /*Hamburger menu*/
+#page-nav label, #hamburger {
+  display: none;
+}
+/* Show Hamburger */
+  #menu label {
+    display: inline-block;
+    color: #fff;
+    background: red;
+    font-style: normal;
+    font-size: 1.2em;
+    padding: 10px;
+  }
+
+  /* Break down menu items into vertical */
+  #menu ul li {
+    display: block;
+  }
+  
+  /* Toggle show/hide menu on checkbox click */
+  #menu ul {
+    display: none;
+  }
+  #menu input:checked ~ ul {
+    display: block;
+  }
     
 }
 @media only screen and (max-width: 400px){
