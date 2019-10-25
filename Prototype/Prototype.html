@@ -13,13 +13,18 @@
     
         <div id="home">
             <div id="menu">
-                <label for="hamburger">&#9776;</label>
+                 <label for="hamburger">&#9776;</label>
       <input type="checkbox" id="hamburger"/>
                 <ul>
-                   <li><a href="#contact">Contact</a></li>
+                    
+                    
+                    <li><a href="#contact">Contact</a></li>
                     <li><a href="#work">Work</a></li>
                     <li><a href="#aboutme">About Me</a></li>
                     <li><a class="active" href="#home">Home</a></li>
+                    
+                    
+                    
                 </ul> 
             </div>
             <div id="title">
@@ -31,6 +36,10 @@
                 <a href="#" class="button">My Resume</a>
             </div>
             <div id="sm">
+                    
+    
+
+                 
                     <a href="http://facebook.com" class="fa fa-facebook"></a>
                     <a href="http://twitter.com" class="fa fa-twitter"></a>
                     <a href="http://instagram.com" class="fa fa-instagram"></a>
@@ -83,29 +92,31 @@
                 <p>xxx-xxx-xxx</p>
                 
             </div>
-            <div class="contact-form">
-                            <div class="title"> Send me a Message!</div>
-
-                            <div class="input-fields">
-                                <div class="items">
-
-                                    <label for="name" class="label">Name</label>
-                                    <input id="name" type="text" class="input">
-                                </div>
-                            <div class="items">
-
-                                    <label for="email" class="label">Email</label>
-                                    <input id="email" type="text" class="input">
-                                </div>
-                                <div class="items">
-
-                                    <label for="msg" class="label">Message</label>
-                                    <textarea id="msg" class="text-area"></textarea>
-                                </div>
-                                <div class="btn">Send</div>
-                            </div>
-
-                        </div>
+            <article class="registar-form">
+            <form class="contact-form">
+                 <section class="form-group">
+                    <h2>Write Me</h2>
+                    <ul class="form-fields">
+                        <h4>Peronal Information</h4>
+                        <li><label for="first-name">First Name:</label> <input type="text" name="first-name" id="first-name" placeholder="First Name" class="text-input"></li>
+                        <li><label for="last-name">Last Name:</label> <input type="text" name="last-name" id="last-name" placeholder="Last Name" class="text-input"></li>
+                        <h4>Contact Information</h4>
+                        <li><label for="phone-number">Phone Number:</label> <input type="tel" name="phone-number" id="phone-number" placeholder="Phone Number" class="text-input"></li>
+                        <li><label for="email">Email:</label> <input type="email" name="email" id="email" placeholder="Email" class="text-input"></li>
+                        <h4>Message</h4>
+                        <li><label for="email">Subject:</label> <input type="text" name="subject" id="subject" placeholder="Subject" class="text-input"></li> 
+                        <li><label for="food-options">Write me a message:</label><textarea id="message" name="message" class="text-area">Leave your message here...</textarea> </li>
+                        <li><label for="services">What can I help you with?:</label> <select class="select-menu" id="services" name="services">
+                         <option value="Web Design">Web Design</option>
+	                     <option value="Graphic Design">Graphic Design</option>
+	                     <option value="UI design">UI design</option>
+                        </select>	</li>
+                        <li><button type="submit" class="register-btn">Send</button></li>
+                        
+                    </ul>
+                </section>
+            </form>
+         </article>
         </div>
         <footer>
         </footer>
